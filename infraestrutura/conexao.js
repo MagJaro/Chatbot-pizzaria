@@ -7,7 +7,10 @@ const conexao = mysql.createPool({
     port: '3306',
     user: 'b68b588c84a611',
     password: 'f1e9f634',
-    database: 'heroku_6a96edac95d2e52'
+    database: 'heroku_6a96edac95d2e52',
+    waitForConnections: true,
+    connectionLimit: 10,
+    queueLimit: 0
 })
 
 module.exports = conexao
