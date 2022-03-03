@@ -3,11 +3,11 @@
 const mysql = require('mysql2')
 
 const conexao = mysql.createConnection({
-    host: 'localhost',
+    host: 'us-cdbr-east-05.cleardb.net',
     port: '3306',
-    user: 'root',
-    password: '123456',
-    database: 'cadastra-pizza'
+    user: 'b68b588c84a611',
+    password: 'f1e9f634',
+    database: 'heroku_6a96edac95d2e52'
 })
 
 module.exports = conexao
