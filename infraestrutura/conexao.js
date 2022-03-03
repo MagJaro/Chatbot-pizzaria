@@ -2,7 +2,7 @@
 
 const mysql = require('mysql2')
 
-const conexao = mysql.createConnection({
+const conexao = mysql.createPool({
     host: 'us-cdbr-east-05.cleardb.net',
     port: '3306',
     user: 'b68b588c84a611',
