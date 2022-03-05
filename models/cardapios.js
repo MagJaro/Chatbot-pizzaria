@@ -1,4 +1,4 @@
-const cardapio = require('../controllers/cardapio')
+// const cardapio = require('../controllers/cardapio')
 const conexao = require('../infraestrutura/conexao')
 
 class Cardapio {

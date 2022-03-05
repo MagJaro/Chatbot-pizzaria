@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/MagJaro/Chatbot-pizzaria#readme",
   "dependencies": {
+    "axios": "^0.26.0",
     "body-parser": "^1.19.2",
     "consign": "^0.1.6",
     "express": "^4.17.3",
