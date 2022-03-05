@@ -5,7 +5,8 @@ module.exports = app => {
     
     //retorna o cep do cliente pelo id
     app.get('/cep/:id', (req, res) => {
-        const id = parseInt(req.params.id)
+        let id = req.params.id
+        id = id.replace('-', '')
         
         BuscaCep.busca(id, res)
     })
