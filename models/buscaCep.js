@@ -1,4 +1,5 @@
-//axios
+//utilizando axios
+
 const axios = require('axios')
 const { send } = require('express/lib/response')
 // const buscaCep = require('../controllers/buscaCep')

@@ -18,7 +18,6 @@ module.exports = app => {
         const cardapios = req.body
 
         Cardapios.adiciona(cardapios, res)
-        
     })
 
 //altera valores
