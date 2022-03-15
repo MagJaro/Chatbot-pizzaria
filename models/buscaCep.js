@@ -11,8 +11,17 @@ class BuscaCep {
             .then((response) => {
                 console.log(response)
                 res.json(response.data)
+
+                const retorno = {
+                    Estado: response.data.uf,
+                    Cidade: response.data.localidade,
+                    Bairro: response.data.bairro,
+                    Rua: response.data.logradouro,
+                    Complemento: response.data.complemento
+                  }
+                  res.json(retorno)
             })
-        
+
     }    
 }
 
