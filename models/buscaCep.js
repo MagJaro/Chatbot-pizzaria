@@ -10,7 +10,7 @@ class BuscaCep {
             .get(`https://viacep.com.br/ws/${cep}/json/`)
             .then((response) => {
                 console.log(response)
-                res.json(response.data)
+                // res.json(response.data)
 
                 const retorno = {
                     Estado: response.data.uf,
