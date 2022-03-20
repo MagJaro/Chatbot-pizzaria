@@ -27,3 +27,5 @@ Explicação do fluxo do chatbot *considerado os blocos mais importantes*:
 # Bloco Informe seu protocolo e Retorna Pedidos 
 - Estes dois blocos foram utilizados para retornar um pedido feito anteriormente;
 - O usuário informa o protocolo gerado no bloco de boas vindas, este valor é armazenado em uma variável e por meio de uma req HTTP Get e de um script o pedido feito anteriormente é informado (se existir). 
+# Link do chatbot 
+https://magda-nilce-roman-jarozeski-qya0a.chat.blip.ai/?appKey=dGVzdGVpbnRlZ3JhY2FvYXBpMTowNjgwNTg0Ny0zYmUwLTRiOGUtOWM2YS1jNDAwYWVlYTBkM2M=
